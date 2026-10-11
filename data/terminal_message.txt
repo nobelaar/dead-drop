@@ -1,0 +1,47 @@
+NEXUS INDUSTRIES  //  SECURE CONSOLE
+node07.ops.nexus.corp  ttyS0
+
+Linux node07 2.4.18-nexus7 #1 SMP i686
+
+Last login: Thu Oct  9 23:41 from 10.0.4.17
+
+root@node07:~# w
+ 23:47:11 up 47 days,  3 users,  load average: 4.82, 3.91, 2.10
+USER     TTY      FROM              LOGIN@   WHAT
+root     ttyS0    -                23:41    -bash
+ops      pts/2    10.0.4.17        22:03    top
+????     pts/9    172.16.88.13     23:44    [unknown]
+
+root@node07:~# ps aux | grep drop
+root     18456  0.1  /tmp/.drop/agent -d
+root     18490  0.0  -bash
+
+root@node07:~# netstat -tn | grep -E '31337|88.13'
+tcp  0  0  10.0.7.31:22     172.16.88.13:60412  ESTABLISHED
+tcp  0  0  10.0.7.31:31337  10.0.7.1:443        ESTABLISHED
+
+root@node07:~# ls -la /tmp/.drop
+drwxr-x---  2 root root  4096 Oct  9 23:44 .
+-rwx------  1 root root  8192 Oct  9 23:44 agent
+-rw-r-----  1 root root   188 Oct  9 23:46 NOTE
+
+root@node07:~# cat /tmp/.drop/NOTE
+============================================
+  NEXUS  //  INTERNAL NODE 07  //  DEAD DROP
+============================================
+
+  ALERT: Unauthorized intrusion confirmed.
+  The subject is already inside the building.
+
+  BLACKOUT PROTOCOL INITIATED.
+
+  DO NOT TRUST SECURITY PERSONNEL.
+
+============================================
+
+root@node07:~# cat /etc/nexus/blackout.status
+STATE=INITIATED
+CAMERA=OFF  BADGE=OFF  PA=OFF
+GUARD_NET=UNTRUSTED
+
+root@node07:~# 
