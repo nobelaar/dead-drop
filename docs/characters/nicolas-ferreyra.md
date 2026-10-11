@@ -140,7 +140,17 @@ Some relationships may be old; others more recent. Not all friendships need the 
 - Relationships must not reduce to affinity meters or characters who passively wait to be rescued.
 - It is not required that all survive, stay together, or agree with the protagonist’s choices.
 
-Individual details of the five friends are **pending design**. They should not all be invented as final canon without evaluating how each contributes to the main plot.
+### Named friends (partial)
+
+| Friend | Sheet | Notes |
+|--------|-------|--------|
+| **Santiago Vidal** (“Santi”), 31 | [santiago-vidal.md](santiago-vidal.md) | AI specialist + **piano**; married to [Camila](camila.md) (30); building a house |
+| **Tomás Acosta**, 24 | [tomas-acosta.md](tomas-acosta.md) | Junior software dev; first job via Nico; equals, not mentor/disciple |
+| **Bruno Sosa**, 29 | [bruno-sosa.md](bruno-sosa.md) | Bricklayer; rural/agriculture practical knowledge; direct, not muscle stereotype |
+| **Valentina Ríos** (“Vale”), 27 | [valentina-rios.md](valentina-rios.md) | **PM at another company** than Nico’s; independent; **Nico loves her** (subtle OK; not choice-reward) |
+| **Lucía Benítez**, 26 | [lucia-benitez.md](lucia-benitez.md) | Writer; philosophy talks; **secretly loves Nico** (he need not know; not Vale-backup) |
+
+All **five** close friends now have initial sheets. Deepen relationships and histories as needed; do not invent conflicting cast.
 
 ---
 
@@ -225,8 +235,10 @@ When writing scenes, dialogue, missions, and gameplay systems for Nico, respect:
 - Specific employer and job title
 - Housing situation and neighborhood
 - Tastes, habits, sense of humor, secondary flaws
-- Full history of each of the five friends
-- Prior relationship with each friend and mutual expectations
+- Fuller history with each of the five friends (all named; details TBD)
+- Prior relationship with each friend and mutual expectations (deep trust established; details TBD)
+- How / whether Nico’s feelings for Vale surface in play (canon: he loves her; expression optional and subtle)
+- Whether Nico ever becomes aware of Lucía’s feelings (canon: she loves him in secret; he need not know)
 - Personal circumstances that may affect campaign decisions
 - Concrete evolution of relationships and possible endings
 
@@ -246,7 +258,9 @@ Nicolás Ferreyra is an Argentine red teamer, financially tight, independent, wi
 |------|--------|
 | First-person presence | Shipped (controller only) |
 | Name / identity on screen | Not yet |
-| Terminal / technical fantasy | Fits red-team skillset; keep skill limits |
-| Five friends | Lore only — no character sheets yet |
-| Blackout / infrastructure failure | Aligns with disaster framing in this doc |
-| Current playable room + node07 terminal | Provisional prototype fiction; may be revised when story pass lands |
+| Terminal / technical fantasy | Fits skillset; keep skill limits (no magic hack) |
+| Five friends | Lore; all five sheets exist (Santi, Tomás, Bruno, Vale, Lucía) |
+| Blackout / infrastructure failure | Matches [../story/overview.md](../story/overview.md) |
+| Campaign start | Workday while systems fail — overview |
+| Player approaches | Tech / stealth / social / confrontation — overview |
+| Current playable room + node07 terminal | **Prototype fiction**; may change with geography/orgs |
